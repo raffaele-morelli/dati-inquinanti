@@ -1,5 +1,5 @@
 Package: datiInquinanti
-Title: Le media mensili per stazione dell'NOx
+Title: I dati per gli inquinanti atmosferici del progetto Pulvirus
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Raffaele",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "raffaele.morelli@isprambiente.it",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Il pacchetto contiene le serie storiche dal 2016 al 2020.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

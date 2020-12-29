@@ -4,9 +4,9 @@
 \name{datiInquinanti-package}
 \alias{datiInquinanti}
 \alias{datiInquinanti-package}
-\title{datiInquinanti: Le media mensili per stazione dell'NOx}
+\title{datiInquinanti: I dati per gli inquinanti atmosferici del progetto Pulvirus}
 \description{
-What the package does (one paragraph).
+Il pacchetto contiene le serie storiche dal 2016 al 2020.
 }
 \author{
 \strong{Maintainer}: Raffaele Morelli \email{raffaele.morelli@isprambiente.it} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})

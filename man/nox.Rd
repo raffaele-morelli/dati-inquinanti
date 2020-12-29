@@ -3,29 +3,21 @@
 \docType{data}
 \name{nox}
 \alias{nox}
-\title{Data of nox pollutant by month/station}
+\title{Dati giornalieri relativi all'NOx per tutte le stazioni sul territorio}
 \format{
-A tibble with 243 rows and 10 variables:
+Un tibble con dati da gennaio 2016 a giugno 2020 con 5 variabili:
 \describe{
-\item{Year}{dbl Year price was recorded}
-\item{Month}{dbl Month price was recorded. Ranges from 1-12 for January - December}
-\item{\code{0-15}}{dbl denoting monthly price for the 0-15/lb. size class}
-\item{\code{15-20}}{dbl denoting monthly price for the 15-20/lb. size class}
-\item{\code{20-25}}{dbl denoting monthly price for the 20-25/lb. size class}
-\item{\code{25-30}}{dbl denoting monthly price for the 25-30/lb. size class}
-\item{\code{30-40}}{dbl denoting monthly price for the 30-40/lb. size class}
-\item{\code{40-50}}{dbl denoting monthly price for the 40-50/lb. size class}
-\item{\code{50-67}}{dbl denoting monthly price for the 50-67/lb. size class}
-\item{Pieces}{dbl denoting monthly price of pieces of shrimp totalling a pound}
+\item{reporting_year}{dbl Year price was recorded}
+\item{pollutant_fk}{dbl Month price was recorded. Ranges from 1-12 for January - December}
+\item{station_eu_code}{dbl denoting monthly price for the 0-15/lb. size class}
+\item{date}{dbl denoting monthly price for the 15-20/lb. size class}
+\item{value}{dbl denoting monthly price for the 15-20/lb. size class}
 }
-}
-\source{
-\url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
 }
 \usage{
 nox
 }
 \description{
-Mean is calculated by month
+Dati giornalieri relativi all'NOx per tutte le stazioni sul territorio
 }
 \keyword{datasets}
