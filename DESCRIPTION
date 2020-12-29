@@ -1,13 +1,13 @@
 Package: datiInquinanti
 Title: I dati per gli inquinanti atmosferici del progetto Pulvirus
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Raffaele",
            family = "Morelli",
            role = c("aut", "cre"),
-           email = "raffaele.morelli@isprambiente.it",
+           email = "pulvirus@isprambiente.it",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Il pacchetto contiene le serie storiche dal 2016 al 2020.
+Description: Il pacchetto contiene le serie storiche degli inquinanti NO2, NOx, PM10 dal 2016 al 2020.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
