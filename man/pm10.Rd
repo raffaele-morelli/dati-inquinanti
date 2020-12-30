@@ -18,6 +18,13 @@ Un tibble con dati da gennaio 2016 a giugno 2020 con 5 variabili:
 pm10
 }
 \description{
-Dati giornalieri relativi al PM10 per tutte le stazioni sul territorio
+Per ottenere i dati regionali degli inquinani è sufficiente utilizzare le
+funzionalità del pacchetto dplyr
+}
+\details{
+Es: per i dati relativi al PM10 della regione Piemonte
+
+library(dplyr)
+filter(stazioniAria, region_id == 1) \%>\% inner_join(pm10, by = c("station_eu_code"))
 }
 \keyword{datasets}

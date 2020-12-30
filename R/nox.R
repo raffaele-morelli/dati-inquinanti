@@ -1,6 +1,13 @@
 #' Dati giornalieri relativi all'NOx per tutte le stazioni sul territorio
 #'
-#'
+#' Per ottenere i dati regionali degli inquinani è sufficiente utilizzare le
+#' funzionalità del pacchetto dplyr
+#' 
+#' Es: per i dati relativi al PM10 della regione Piemonte
+#' 
+#' library(dplyr)
+#' filter(stazioniAria, region_id == 1) %>% inner_join(pm10, by = c("station_eu_code")) 
+#' 
 #' @format Un tibble con dati da gennaio 2016 a giugno 2020 con 5 variabili:
 #' \describe{
 #'   \item{reporting_year}{int anno della rilevazione}
