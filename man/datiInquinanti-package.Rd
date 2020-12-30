@@ -10,7 +10,7 @@ Il pacchetto contiene le serie storiche degli inquinanti NO2, NOx, PM10 dal 2016
     Contiene inoltre l'anagrafica delle stazioni di monitoraggio ritenute valide secondo i criteri stabiliti.
 }
 \author{
-\strong{Maintainer}: Raffaele Morelli \email{pulvirus@isprambiente.it} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Raffaele Morelli \email{raffaele.morelli@isprambiente.it} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}

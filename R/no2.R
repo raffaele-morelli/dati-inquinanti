@@ -5,7 +5,7 @@
 #' 
 #' @examples 
 #' # i dati relativi al PM10 della regione Piemonte 
-#' library(dplyr)
+#' require(dplyr)
 #' filter(stazioniAria, region_id == 1) %>% inner_join(pm10, by = c("station_eu_code")) 
 #' 
 #' @format Un tibble con dati da gennaio 2016 a giugno 2020 con 5 variabili:

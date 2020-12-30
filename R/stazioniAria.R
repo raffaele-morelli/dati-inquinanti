@@ -5,7 +5,7 @@
 #' 
 #' @examples 
 #' # i dati relativi al PM10 della regione Piemonte 
-#' library(dplyr)
+#' require(dplyr)
 #' filter(stazioniAria, region_id == 1) %>% inner_join(pm10, by = c("station_eu_code")) 
 #'
 #' @format un tibble con 218 righe e 26 variabili:
