@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "raffaele.morelli@isprambiente.it",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Il pacchetto contiene le serie storiche degli inquinanti NO2, NOx, PM10 dal 2016 al 2020.
+Description: Il pacchetto contiene le serie storiche degli inquinanti NO2, NOx, PM10, PM25 dal 2016 al 2020.
     Contiene inoltre l'anagrafica delle stazioni di monitoraggio ritenute valide secondo i criteri stabiliti.
 License: MIT + file LICENSE
 Encoding: UTF-8
