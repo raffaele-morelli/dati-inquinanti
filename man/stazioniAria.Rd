@@ -3,7 +3,7 @@
 \docType{data}
 \name{stazioniAria}
 \alias{stazioniAria}
-\title{L'anagrafica delle stazioni valide secondo i criteri stabiliti}
+\title{L'anagrafica delle stazioni di rilevamento}
 \format{
 un tibble con 218 righe e 26 variabili:
 \describe{

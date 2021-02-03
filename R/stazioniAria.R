@@ -1,4 +1,4 @@
-#' L'anagrafica delle stazioni valide secondo i criteri stabiliti
+#' L'anagrafica delle stazioni di rilevamento
 #' 
 #' Per ottenere i dati regionali degli inquinani è sufficiente utilizzare le
 #' funzionalità del pacchetto dplyr
