@@ -24,9 +24,20 @@ Per ottenere i dati regionali degli inquinani è sufficiente utilizzare le
 funzionalità del pacchetto dplyr
 }
 \examples{
-# i dati relativi al PM10 della regione Piemonte 
-require(dplyr)
-filter(stazioniAria, region_id == 1) \%>\% inner_join(pm10, by = c("station_eu_code")) 
+# Per esplorare l'anagrafica delle stazioni della regione Piemonte
+dplyr::filter(stazioniAria, grepl("piemonte",regione, ignore.case = TRUE))
+
+# Le stazioni della provincia di Asti
+dplyr::filter(stazioniAria, grepl("asti", provincia, ignore.case = TRUE))
+
+# Le stazioni nel comune di Pinerolo
+dplyr::filter(stazioniAria, grepl("ivrea", comune, ignore.case = TRUE))
+
+# i dati relativi al PM10 della regione Piemonte  
+dplyr::filter(stazioniAria, region_id == 1) \%>\% inner_join(pm10, by = c("station_eu_code")) 
+
+# analogo al precedente ma usando una *ricerca* (match) sul campo 'regione'
+dplyr::filter(stazioniAria, grepl("piemonte", regione, ignore.case = TRUE)) \%>\% inner_join(pm10, by = c("station_eu_code")) 
 
 }
 \keyword{datasets}
