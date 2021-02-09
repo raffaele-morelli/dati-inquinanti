@@ -3,7 +3,7 @@
 \docType{data}
 \name{no2}
 \alias{no2}
-\title{Dati giornalieri relativi all'NO2 per tutte le stazioni sul territorio}
+\title{no2: dati giornalieri per tutte le stazioni sul territorio}
 \format{
 Un tibble con dati da gennaio 2016 a giugno 2020 con 5 variabili:
 \describe{
@@ -18,15 +18,14 @@ Un tibble con dati da gennaio 2016 a giugno 2020 con 5 variabili:
 no2
 }
 \description{
-Per ottenere i dati regionali degli inquinani è sufficiente utilizzare le
+Per ottenere i dati regionali degli inquinanti è sufficiente utilizzare le
 funzionalità del pacchetto dplyr
 }
 \examples{
-# i dati relativi al NO2 della regione Piemonte  
-dplyr::filter(stazioniAria, region_id == 1) \%>\% inner_join(no2, by = c("station_eu_code")) 
-
-# analogo al precedente ma usando una *ricerca* (match) sul campo 'regione'
-dplyr::filter(stazioniAria, grepl("piemonte", regione, ignore.case = TRUE)) \%>\% inner_join(no2, by = c("station_eu_code")) 
+# i dati relativi al no2 della regione Piemonte 
+library(dplyr)
+dplyr::filter(stazioniAria, region_id == 1) \%>\% 
+   inner_join(no2, by = c('station_eu_code'))
 
 }
 \keyword{datasets}
