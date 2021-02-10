@@ -6,9 +6,7 @@
 \alias{datiInquinanti-package}
 \title{datiInquinanti: I dati per gli inquinanti atmosferici del progetto Pulvirus}
 \description{
-Il pacchetto contiene le serie storiche degli inquinanti NO2, NOx, PM10, PM25 dal 2016 al 2020.
-    Contiene inoltre l'anagrafica delle stazioni di monitoraggio ritenute valide secondo i criteri stabiliti. 
-    I data frame sono "nox", "pm10, "c6h6", "no2", "pm10", "pm25" e "stazioniAria".
+Il pacchetto contiene le serie storiche degli inquinanti NO2, NOx, PM10, PM25 dal 2016 al 2020. Contiene inoltre l'anagrafica delle stazioni di monitoraggio ritenute valide secondo i criteri stabiliti.I data frame sono "nox", "pm10, "c6h6", "no2", "pm10", "pm25" e "stazioniAria".
 }
 \author{
 \strong{Maintainer}: Raffaele Morelli \email{raffaele.morelli@isprambiente.it} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
