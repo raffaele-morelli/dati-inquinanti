@@ -1,4 +1,5 @@
-#' o3: dati giornalieri per tutte le stazioni sul territorio
+#' o3: massime orarie giornaliere e media mobile sulle
+#' 8 ore precedenti per tutte le stazioni sul territorio
 #' 
 #' Per ottenere i dati regionali degli inquinanti è sufficiente utilizzare le
 #' funzionalità del pacchetto dplyr

@@ -3,7 +3,8 @@
 \docType{data}
 \name{o3}
 \alias{o3}
-\title{o3: dati giornalieri per tutte le stazioni sul territorio}
+\title{o3: massime orarie giornaliere e media mobile sulle
+8 ore precedenti per tutte le stazioni sul territorio}
 \format{
 Un tibble con dati da gennaio 2016 a giugno 2020 con 5 variabili:
 \describe{
