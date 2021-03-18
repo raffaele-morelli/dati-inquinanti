@@ -6,7 +6,7 @@
 \alias{datiInquinanti-package}
 \title{datiInquinanti: I dati per gli inquinanti atmosferici del progetto Pulvirus}
 \description{
-Il pacchetto contiene le serie storiche degli inquinanti dal 2016 al 2020.
+Il pacchetto contiene le serie storiche degli inquinanti dal 2016 al 2020 e dove presenti anche dal 2013.
     Contiene inoltre l'anagrafica delle stazioni di monitoraggio ritenute valide secondo i criteri stabiliti. 
     Una overview del contenuto si ottiene con data(package = "datiInquinanti").
 }
