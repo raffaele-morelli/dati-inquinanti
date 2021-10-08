@@ -1,6 +1,6 @@
 Package: datiInquinanti
 Title: I dati per gli inquinanti atmosferici del progetto Pulvirus
-Version: 0.0.6
+Version: 0.0.7
 Authors@R: 
     person(given = "Raffaele",
            family = "Morelli",
