@@ -1,6 +1,6 @@
 Package: datiInquinanti
 Title: I dati per gli inquinanti atmosferici del progetto Pulvirus
-Version: 0.0.7
+Version: 0.0.8
 Authors@R: 
     person(given = "Raffaele",
            family = "Morelli",
@@ -14,6 +14,6 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Depends: R (>= 2.10)
 Imports: tibble,dplyr
